@@ -1,0 +1,85 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pertsatu path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_happy
+  - intent: pertsatu
+  - action: utter_pertsatu
+
+- story: pertdua path
+  steps:
+  - intent: pertdua
+  - action: utter_pertdua
+
+- story: perttiga path
+  steps:
+  - intent: perttiga
+  - action: utter_perttiga
+
+- story: pertempat path
+  steps:
+  - intent: pertempat
+  - action: utter_pertempat
+
+- story: pertlima path
+  steps:
+  - intent: pertlima
+  - action: utter_pertlima
+
+- story: pertenam path
+  steps:
+  - intent: pertenam
+  - action: utter_pertenam
+
+- story: perttujuh path
+  steps:
+  - intent: perttujuh
+  - action: utter_perttujuh
+
+- story: pertdelapan path
+  steps:
+  - intent: pertdelapan
+  - action: utter_pertdelapan
+
+- story: pertsembilan path
+  steps:
+  - intent: pertsembilan
+  - action: utter_pertsembilan
+
+- story: pertsepuluh path
+  steps:
+  - intent: pertsepuluh
+  - action: utter_pertsepuluh
+

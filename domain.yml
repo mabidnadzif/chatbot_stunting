@@ -1,0 +1,115 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pertsatu
+  - pertdua
+  - perttiga
+  - pertempat
+  - pertlima
+  - pertenam
+  - perttujuh
+  - pertdelapan
+  - pertsembilan
+  - pertsepuluh
+  
+
+responses:
+  utter_greet:
+  - text: "Halo Sobat, Selamat Datang di Chatbox Seputar Stunting !"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Oke, Silahkan bertanya"
+
+  utter_goodbye:
+  - text: "Sampai Berjumpa Lagi di Chatbox Seputar Stunting
+\n\n by Mukhamad Abid Nadzif (20.01.53.0027)"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pertsatu:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan nutrisi, infeksi berulang yang tidak
+\n\ntertangani dalam jangka waktu yang lama. Silahkan evaluasi kurva pertumbuhan dari sejak lahir, adalah
+\n\npertumbuhan janin terhambat? Adakah riwayat infeksi berulang akibat imunisasi tidak lengkap? adakah riwayat 
+\n\ngagal tumbuh? Malnutrisi yang tidak teratasi dalam waktu lama sehingga menyebabkan badannya pendek?."
+
+  utter_pertdua:
+  - text: "Nutrisi untuk anak di atas 2 tahun mengikuti aturan “my plate” terdiri dari ¼ sayuran, ¼ buah, ¼ karbohidrat
+\n\n(grain) dan ¼ protein. Pilih protein hewani dan berbagai jenis sayuran berwarna-warni."
+
+  utter_perttiga:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi badan. Pertumbuhan otak sangat pesat
+\n\nterjadi pada 2 tahun pertama sehingga setelah usia 2 tahun, tidak bisa diperbaiki. Tinggi badan masih bisa
+\n\ndiperbaiki dengan berharap pada fase pubertas. Oleh karena itu JANGAN mengobati stunting tapi lakukanlah
+\n\nPENCEGAHAN. Periode emas yang masih bisa memperbaiki stunting adalah sebelum usia 2 tahun, dan hasilnya pun
+\n\ntidak bisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+
+  utter_pertempat:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. Nutrisi pembangun tumbuh adalah makronutrien
+\n\nyang terdiri dari Karbohidrat, protein dan lemak. Sedangkan vitamin dan mineral merupakan mikronutrien yang
+\n\nmerupakan zat pendukung, bukan pembangun. Vitamin dan mineral terbaik berasal dari makanan, bukan dari
+\n\napotek. Tidak ada vitamin dan suplemen pencegah stunting."
+
+  utter_pertlima:
+  - text: "Sayangnya tidak ada cara yang cepat, namun ada cara yang mudah yang harus dilakukan bertahun-tahun.
+\n\nPencegahan stunting adalah perjalanan yang cukup panjang dari mempersiapkan remaja putri sebelum
+\n\nmenempuh kehamilan, perencanaan keluarga dan kehamilan yang matang, menjaga kehamilan yang sehat, nutrisi
+\n\nsaat hamil dan menyusui, manajemen laktasi yang baik, manajemen MPASI yang adekuat, mencegah penyakit
+\n\ndengan imunisasi yang LENGKAP dan pemantauan pertumbuhan anak terus-menerus. Jadi tidak ada cara cepat."
+
+  utter_pertenam:
+  - text: "Saat usia 6-12 bulan, ada dua manajemen nutrisi yang harus dievaluasi yaitu:
+\n\n- Apakah ASI cukup?
+\n\n- Apakah kuantitas dan kualitas MPASI cukup?
+\n\nPemberian sufor hanya dilakukan jika ASI tidak cukup.
+\n\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+
+  utter_perttujuh:
+  - text: "Pada fase ini, harus evaluasi manajemen laktasi dengan langkah sebagai berikut:
+\n\n- Apakah produksi ASI cukup?
+\n\nCobalah pompa ASI setiap 2-3 jam sekali, dan lihat hasilnya, produksi ASI dikatakan cukup jika per porsi sekitar
+\n\n20ml x Berat badan anak dan sekitar 200 ml x berat badan anak per hari. Contoh jika berat badan banak 5 kg, maka
+\n\nproduksi ASI dikatakan cukup jika per porsi 100 ml dan sehari 1000 ml.
+\n\n- Jika ASI tidak cukup lakukanlah stimulai produksi ASI dengan menyusui + pompa setiap 2-3 jam.
+\n\n- Menyusui bayi sekitar 10-15 menit ditambah dengan pompa ASI 15-20 menit setelah menyusui.
+\n\n- JIka bayi dalam keadaan malnutrisi, berikan PASI (pengganti ASI) selama menunggu produksi ASI cukup."
+
+  utter_pertdelapan:
+  - text: "Pada fase ini harus dievaluasi manajemen laktasi dan manajemen MPASI.
+\n\nManajemen laktasi dapat melihat no.7. Kemudian evaluasi apakah manajemen MPASI sudah baik?
+\n\nMPASI setidaknya diberikan 3-4x sehari dengan kualitas dominan protein hewani. MPASI usia 6-9 bulan memiliki
+\n\ntekstur yang lembut, lumat namun tidak encer. Porsi MPASI sekitar 80-120 ml.
+\n\n- Evaluasi juga bagaimana “moment” pemberian MPASI, apakah bayi diberikan makan saat kenyang (setelah menyusu) 
+\n\nsehingga bayi cenderung menolak makan? Atau kurang variasi menu sehingga bosan."
+
+  utter_pertsembilan:
+  - text: "Saat fase ini, evaluasi apakah anak masih ASI? Di usia ini, pemberian ASI harus dibatasi sehingga asupan nutrisi
+\n\ndominan didapatkan dari makanan padat.
+\n\nEvaluasi juga manajemen nutrisi misalnya apakah kualitas kurang baik (kurang protein hewani?), apakah
+\n\nfrekuensi dan jumlah tidak cukup? (porsi dapat mencapai 1/3 porsi dewasa), apakah tekstur masih lunak dan ecer
+\n\nsehingga porsi banyak namun kurang padat. 
+\n\nSangat jarang gangguan pertumbuhan disebabkan oleh penyakit,oleh karena itu evaluasi dahulu manajemen nutrisinya."
+
+  utter_pertsepuluh:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai usia koreksi 10 minggu, kemudian
+\n\npindah ke kurva WHO. Sedangkan perkembangan (verbal, motoric halus dan kasar) menggunakan usia koreksi
+\n\nsampai usia 2 tahun, lalu dianggap sama dengan anak lain yang seusianya."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
